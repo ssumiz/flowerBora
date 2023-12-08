@@ -62,9 +62,9 @@ $list_count = (is_array($list) && $list) ? count($list) : 0;
       },
 
   // If we need pagination
-  pagination: {
-    el: '.swiper.<?php echo $bo_table;?> .swiper-pagination',
-  },
+  // pagination: {
+  //   el: '.swiper.<?php echo $bo_table;?> .swiper-pagination',
+  // },
 
   // Navigation arrows
   navigation: {
